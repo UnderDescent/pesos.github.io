@@ -25,29 +25,41 @@ permalink: /recruitments/
   }
 
   .recruitment-social {
-    max-width: 760px;
-    margin: 2rem auto 0;
-    padding: 2rem;
-    border-radius: 20px;
-    background: #f2f2f2;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-  }
-
-  .recruitment-social h2 {
-    margin-bottom: 1rem;
+    width: 100vw;
+    margin: 2.5rem calc(50% - 50vw) 0;
+    padding: 1rem 1.25rem;
+    background: #f6f6f6;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    text-align: center;
   }
 
   .recruitment-social p {
-    margin-bottom: 1rem;
-  }
-
-  .recruitment-social ul {
     margin: 0;
-    padding-left: 1.2rem;
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 0.95rem;
   }
 
-  .recruitment-social li + li {
-    margin-top: 0.6rem;
+  .recruitment-social-links {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 0.92rem;
+  }
+
+  .recruitment-social-links a {
+    color: rgba(0, 0, 0, 0.62);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+
+  .recruitment-social-links a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom-color: rgba(0, 0, 0, 0.28);
   }
 </style>
 
@@ -64,7 +76,6 @@ permalink: /recruitments/
         onclick="window.location.replace('https://your-application-link-here.com');">
         Apply Now
       </button>
-      <a href="/contact/" class="button button--outline-primary button--rounded button--lg">Ask a Question</a>
     </p>
   </section>
 
@@ -86,15 +97,19 @@ permalink: /recruitments/
   </section>
 
   <section class="recruitment-social my-5">
-    <h2>All of PESOS social media, give us a follow :D</h2>
-    <p>Find us here:</p>
-    <ul>
-      <li><strong>Instagram:</strong> <a href="https://www.instagram.com/pes.opensource?igsh=MXhxNHJqanBtcDl2cA==" target="_blank" rel="noopener noreferrer">pes.opensource</a></li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/pesos" target="_blank" rel="noopener noreferrer">github.com/pesos</a></li>
-      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/pesososiris/" target="_blank" rel="noopener noreferrer">linkedin.com/company/pesososiris</a></li>
-      <li><strong>YouTube:</strong> <a href="https://youtube.com/@pesopensource4653?si=QhqkZDuvOSg8UpWK" target="_blank" rel="noopener noreferrer">@pesopensource4653</a></li>
-      <li><strong>Twitter / X:</strong> <a href="https://x.com/pesopensource" target="_blank" rel="noopener noreferrer">x.com/pesopensource</a></li>
-      <li><strong>Facebook:</strong> <a href="https://www.facebook.com/groups/pesosc/" target="_blank" rel="noopener noreferrer">facebook.com/groups/pesosc</a></li>
-    </ul>
+    <p>All of PESOS social media, give us a follow :D</p>
+    <div class="recruitment-social-links">
+      <span><a href="https://www.instagram.com/pes.opensource?igsh=MXhxNHJqanBtcDl2cA==" target="_blank" rel="noopener noreferrer">Instagram</a></span>
+      <span>•</span>
+      <span><a href="https://github.com/pesos" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+      <span>•</span>
+      <span><a href="https://www.linkedin.com/company/pesososiris/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+      <span>•</span>
+      <span><a href="https://youtube.com/@pesopensource4653?si=QhqkZDuvOSg8UpWK" target="_blank" rel="noopener noreferrer">YouTube</a></span>
+      <span>•</span>
+      <span><a href="https://x.com/pesopensource" target="_blank" rel="noopener noreferrer">Twitter / X</a></span>
+      <span>•</span>
+      <span><a href="https://www.facebook.com/groups/pesosc/" target="_blank" rel="noopener noreferrer">Facebook</a></span>
+    </div>
   </section>
 </div>
