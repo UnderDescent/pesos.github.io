@@ -187,7 +187,3 @@ package-lock.json
 _site/
 .sass-cache/
 .jekyll-metadata
-
-# TEMP (2026-04-07): Ignore recruitment microsite folder during current cycle.
-# Reminder: remove this rule later to unignore and track folder changes again.
-/recruitments/
