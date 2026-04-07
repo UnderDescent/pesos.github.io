@@ -24,6 +24,38 @@ permalink: /recruitments/
     margin-top: 1.5rem;
   }
 
+  .recruitment-hero + h2 {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 + p,
+  h2 + ol,
+  h2 + ul,
+  p + ol,
+  p + ul {
+    margin-top: 0.9rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ol,
+  ul {
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  li + li {
+    margin-top: 0.45rem;
+  }
+
   .recruitment-social {
     width: 100vw;
     margin: 2.5rem calc(50% - 50vw) 0;
