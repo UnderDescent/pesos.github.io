@@ -99,13 +99,13 @@ permalink: /recruitments/
 <section class="recruitment-hero my-5">
   <h1>Join PESOS</h1>
   <p class="info">
-    We are recruiting contributors for development, design, content, and community.
+    We are recruiting for Tech Members, Non-Tech Members and Internal Community.
   </p>
   <p class="recruitment-actions">
     <button
       type="button"
       class="button button--primary button--rounded button--lg"
-      onclick="window.location.replace('https://your-application-link-here.com');">
+      onclick="window.location.replace('https://forms.gle/DLPpSGgxPU8HS5AaA');">
       Apply Now
     </button>
   </p>
